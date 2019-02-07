@@ -1,0 +1,34 @@
+{
+  "name": "antd-tag-input",
+  "version": "1.0.0",
+  "description": "a customized-form-control for antd form ",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "<git_repo_url>"
+  },
+  "peerDependencies": {
+    "react": "^16.8.1"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Chaitanya Budapaneti",
+  "license": "ISC",
+  
+  "dependencies": {
+    "antd": "^3.13.2",
+    "react": "^16.8.1",
+    "webpack": "^4.29.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.0.4"
+  }
+}
