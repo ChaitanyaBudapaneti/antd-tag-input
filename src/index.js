@@ -1,11 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
-import "./index.css";
 import { Form, Input, Button, Tag, Tooltip, Icon } from "antd";
 
 
-export class Tag extends React.Component {
+export class TagInput extends React.Component {
   
   static getDerivedStateFromProps(nextProps) {
     // Should be a controlled component.
