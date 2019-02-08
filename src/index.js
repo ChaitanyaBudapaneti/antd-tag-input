@@ -3,7 +3,7 @@ import "antd/dist/antd.css";
 import { Form, Input, Button, Tag, Tooltip, Icon } from "antd";
 
 
-export class TagInput extends React.Component {
+ class AntdTagInput extends React.Component {
   
   static getDerivedStateFromProps(nextProps) {
     // Should be a controlled component.
@@ -115,3 +115,5 @@ export class TagInput extends React.Component {
     );
   }
 }
+
+export default AntdTagInput;
