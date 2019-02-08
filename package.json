@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "<git_repo_url>"
+    "url": "https://github.com/ChaitanyaBudapaneti/antd-tag-input.git"
   },
   "entry": {
     "index": "./src/index.js"
